@@ -7,6 +7,7 @@ import { LitterCollection } from '../services/LitterCollection';
 import { MarriageCertificate } from '../services/MarriageCertificate';
 import { PublicGarden } from '../services/PublicGarden';
 import { SewerageCleaning } from '../services/SewerageCleaning';
+import { WaterConnection } from '../services/WaterConnection';
 import { Signup } from '../signup/signup';
 // import { Signup } from '../signup/signup';
 import './home.css';
@@ -25,7 +26,8 @@ export function HomePage() {
                 {/* < PublicGarden /> */}
                 {/* < SewerageCleaning /> */}
                 {/* < LitterCollection /> */}
-                < FireService />
+                {/* < FireService /> */}
+                < WaterConnection />
             </section>
 
         </div>
