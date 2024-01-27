@@ -1,0 +1,51 @@
+
+form{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    height: max-content;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+
+    & input,select{
+        height: 30px;
+        padding-left: 5px;
+    }
+    & input[type="radio"],input[type="checkbox"]{
+        height: max-content;
+    }
+    & input[type="radio"]{
+        margin-left :30px;
+    
+    }
+    & h1{
+        color: #001944;
+    }
+    & p{
+        font-weight: bold;
+    }
+    & .nonTitled{
+        font-weight:normal;
+    }
+    & ul{
+        list-style-position: inside;
+    }
+    & button{
+        width: 100px;
+        margin: auto;
+        background-color: #001944;
+        color: white;
+        border: 2px solid #001944;
+        border-radius: 3px;
+
+        &:hover{
+            background-color: white;
+            color: #001944;
+            border: 2px solid #001944;
+        }
+    }
+}

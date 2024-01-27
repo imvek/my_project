@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: box-border;
+}
+header{
+    height: 25vh;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f3;
+    min-height: 75vh;
+}

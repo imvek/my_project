@@ -1,0 +1,40 @@
+.header{
+    height: 25vh;
+    background-color:#001944;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.headerButton{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+.headerButton button{
+    padding: 5px;
+    border-radius: 2px;
+    border:2px solid white;
+
+    &:hover {
+        color:white;
+        border: 2px solid white;
+        background-color: #001944;
+        transition: 0.2sec;
+
+    }
+}
+
+.headerImage{
+    display: flex;
+    justify-content: center;
+}
+.headerImage img{
+    width: 25vw;
+    border-radius: 50%;
+}
+.headerNav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
