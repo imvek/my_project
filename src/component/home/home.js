@@ -1,5 +1,6 @@
 import { Header } from '../header/header';
 import { Login } from '../login/login';
+import { PropertyTax } from '../modules/PropertyTax';
 import { BirthCirtificate } from '../services/BirthCertificate';
 import { DeathCirtificate } from '../services/DeathCertificate';
 import { FireService } from '../services/FireService';
@@ -27,7 +28,8 @@ export function HomePage() {
                 {/* < SewerageCleaning /> */}
                 {/* < LitterCollection /> */}
                 {/* < FireService /> */}
-                < WaterConnection />
+                {/* < WaterConnection /> */}
+                < PropertyTax />
             </section>
 
         </div>
